@@ -222,7 +222,9 @@ def get_all_product_ids():
             return jsonify({"error": f"An unexpected error occurred: {str(e)}"}), 500
 
     return jsonify({"products": all_products}), 200
-
+@app.route("/", methods=["GET"])
+def get_home():
+    return "<h1>Growth Studioz</h1>", 200 
 @app.route("/get_variant_ids/<product_id>", methods=["GET"])
 def get_variant_ids(product_id):
     url = f"https://{SHOPIFY_STORE}.myshopify.com/admin/api/{API_VERSION}/products/{product_id}/variants.json?fields=id,title,option1,option2,option3,"
