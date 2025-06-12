@@ -1,0 +1,114 @@
+{
+    "products": [
+        {
+            "title": "Test Ring 1",
+            "body_html": "<strong>Used API</strong>",
+            "vendor": "GEER",
+            "product_type": "Ring",
+            "tags": "ring,valentine",
+            "variants": [
+                {
+                    "option1": "Yellow Gold",
+                    "option2": "18k",
+                    "option3": "VVS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "yellow_gold.webp"
+                },
+                {
+                    "option1": "Yellow Gold",
+                    "option2": "14k",
+                    "option3": "VVS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "yellow_gold.webp"
+                },
+                {
+                    "option1": "Yellow Gold",
+                    "option2": "14k",
+                    "option3": "VVS-VS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "yellow_gold.webp"
+                },
+                {
+                    "option1": "Rose Gold",
+                    "option2": "18k",
+                    "option3": "VVS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "white_gold.webp"
+                }
+            ],
+            "options": [
+                {
+                    "name": "Color",
+                    "values": ["Yellow Gold", "Rose Gold", "White Gold"]
+                },
+                {
+                    "name": "Karat",
+                    "values": ["18k", "14k"]
+                },
+                {
+                    "name": "Diamond Quality",
+                    "values": ["VVS-EF", "VVS-GH", "VVS-VS-EF"]
+                }
+            ]
+        },
+        {
+            "title": "Test Ring 2",
+            "body_html": "<strong>Used API</strong>",
+            "vendor": "GEER",
+            "product_type": "ring",
+            "tags": "ring,valentine",
+            "variants": [
+                {
+                    "option1": "Yellow Gold",
+                    "option2": "18k",
+                    "option3": "VVS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "yellow_gold.webp"
+                },
+                {
+                    "option1": "Yellow Gold",
+                    "option2": "14k",
+                    "option3": "VVS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "yellow_gold.webp"
+                },
+                {
+                    "option1": "Yellow Gold",
+                    "option2": "14k",
+                    "option3": "VVS-VS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "yellow_gold.webp"
+                },
+                {
+                    "option1": "Rose Gold",
+                    "option2": "18k",
+                    "option3": "VVS-EF",
+                    "price": "1999.00",
+                    "compare_at_price": "2999.00",
+                    "img": "white_gold.webp"
+                }
+            ],
+            "options": [
+                {
+                    "name": "Color",
+                    "values": ["Yellow Gold", "Rose Gold", "White Gold"]
+                },
+                {
+                    "name": "Karat",
+                    "values": ["18k", "14k"]
+                },
+                {
+                    "name": "Diamond Quality",
+                    "values": ["VVS-EF", "VVS-GH"]
+                }
+            ]
+        }
+    ]
+}
