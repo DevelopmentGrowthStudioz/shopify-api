@@ -625,4 +625,4 @@ def product_add_images():
     return jsonify({"message": "Image upload completed", "processed_products": processed_products}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
